@@ -1,0 +1,31 @@
+Cloud and AI Data Architecture for EV Checkr
+
+As EV Checkr scales, a robust cloud and AI-driven architecture is essential for managing data efficiently and delivering predictive, real-time services to EV owners and repair providers. This design focuses on optimising data accessibility, scalability, and actionable insights to enhance customer experience and operational efficiency.
+
+
+1. Type of Data
+* Customer Data: EV owner profiles and repair history.
+* Vehicle Data: Diagnostics, maintenance schedules, and performance logs.
+* Repair Service Data: Provider availability, pricing, and service records.
+* Analytics Data: Predictive insights and user behaviour patterns.   With special attention to sustainability aspects. 
+
+2. Cloud Data Usage
+* Real-Time Access: EV owners track diagnostics and schedule repairs instantly.
+* Centralised Management: Repair providers access schedules and parts inventory.
+* AI Insights: Predictive models for repair needs, performance tracking, and uptime optimization.
+
+3. Advantages
+* Scalability: Easily supports growing user and vehicle data volumes.
+* Integration: Seamless connection with tools like Tableau and ML flow for AI workflows.
+* Global Access: Enables platform expansion across geographies with consistent service.
+*** Potentially using AI embedded in the APP and on the WebSite and on the backend. I’m thinking or RAG combined with something that is API driven.
+
+4. Challenges
+* Privacy and Security: Protecting sensitive vehicle and customer data.
+* Latency Risks: Ensuring minimal delays in real-time diagnostics.
+
+Conclusion Implementing a cloud-first architecture with integrated AI capabilities allows EV Checkr to deliver a future-ready platform. The cloud ensures scalable, global access while providing a unified data repository. AI models transform raw data into actionable insights, enabling predictive diagnostics and enhancing repair provider efficiency. Visualisation tools like Tableau ensure transparency and real-time decision-making across workflows. By addressing privacy concerns and maintaining system responsiveness, EV Checkr can lead the EV repair industry, offering a seamless, intelligent, and scalable solution for its users.
+
+As a second option, and just a thought is to integrate with service such as Slack & CRM, which in turn would bring enormous benefit for the product and en user. Which then will capture multiple data points, that all integrated will help us equip the repair technician with knowledge  prior to even having the EV in the repair shop. With a net result of faster SLA and Repair time and increase customer CSAT(Customer Satisfaction Score)
+
+
